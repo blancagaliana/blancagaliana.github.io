@@ -1,0 +1,42 @@
+canvas {
+    background: url('./background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./Menu.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-button {
+    font-family: 'Ultra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    border-radius: 31;
+    color: rgb(255, 255, 255);
+    background-color: #5b3d68;
+    text-decoration: none;
+    border: 2px solid rgb(126, 97, 126);
+    padding: 20px 60px;
+    box-shadow: 0 0 3px black;
+}
+
+.main-button:hover {
+    background-color: #e0dcd8;
+}
+
+.non-display {
+    display: none;
+}
